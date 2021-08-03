@@ -1,0 +1,95 @@
+<!DOCTYPE>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Визитка-Шаламова Алена</title>
+    </head>
+    <body>
+    <section class="section-1">
+       <img class="foto" 
+       src="img/foto.jpg" 
+       alt="Фотография" >
+       <div class="about">
+        <h1 class="name">Алена Шаламова</h1>
+           <p>Адрес: Челябинск</p>
+           <p>Опыт работы: нет</p>
+           <p>Телефон: +7 (909) 084 84 13</p>
+       </div>
+       </section>
+       <section class="section-2">
+    <table>
+        <caption><h2>Знание языков:</h2></caption>
+    <tr>
+        <th></td>
+        <th>Java</td>
+        <th>JavaScript</td>
+        <th>C++</td>
+        <th>C#</td>
+        <th>Swift</td>
+    </tr>
+    <tr>
+        <td>Отличное владение</td>
+        <td>нет</td>
+        <td>нет</td>
+        <td>нет</td>
+        <td>нет</td>
+        <td>нет</td>
+    </tr>
+    <tr>
+        <td>Хорошее владение</td>
+        <td>нет</td>
+        <td>нет</td>
+        <td>нет</td>
+        <td>нет</td>
+        <td>нет</td>
+    </tr>
+    <tr>
+        <td>Среднее владение</td>
+        <td>нет</td>
+        <td>нет</td>
+        <td>нет</td>
+        <td>нет</td>
+        <td>нет</td>
+    </tr>
+    <tr>
+        <td>Плохое владение</td>
+        <td>нет</td>
+        <td>да</td>
+        <td>нет</td>
+        <td>нет</td>
+        <td>нет</td>
+    </tr>
+</table>
+</section>
+<section class="section-3">
+    <div class="information-1">
+    <label for="number-phone">Телефон:</label>
+        <input id="number-phone" 
+        type="tel" 
+        name="number" 
+        placeholder="+7(xxx)xxxxxxx" 
+        pattern="[+]{1}-[7]{1}-[0-9]{3}-[0-9]{7}"
+        title="Номер должен начинаться с +7">
+    </div>
+    <div class="information-2">
+    <label for="Username">Имя</label>
+        <input id="username"
+        type="text"
+        name="Username"
+        placeholder="Марина">
+    </div>    
+</section>
+<section class="section-4">
+    <input 
+    id="button"
+    class="button"
+    type="button" 
+    value="Кликните сюда чтобы узнать меня подробнее"/>
+    <div class="information-3 hidden">
+        Лалалалалалалал
+    </div>
+</section>
+<script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,84 @@
+.section-1 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+   }
+
+.foto {
+    width: auto;
+    height: 200px;
+    padding-right: 20px;
+      }
+
+.about {
+    width: auto;
+    height: 200px;
+    }      
+
+.section-2 {
+    margin: 0;
+    padding: 0;
+}    
+
+caption {
+    text-align: start;
+}
+
+table {
+border: 1px solid;
+border-color: black; 
+padding: 10px;
+width: 600px;
+height: auto;
+border-collapse: collapse;
+}
+
+th {
+    text-align: center;
+    border: 1px solid black;
+}
+
+td {
+border: 1px solid black;
+padding: 10px;
+}
+
+.section-3 {
+    display: flex;
+    margin-top: 30px;
+}
+
+.information-1 {
+    padding: 5px;
+    width: 290px;
+}
+
+.information-2 {
+    padding: 5px;
+    width: 290px;
+}
+
+label {
+    display: block;
+    padding-bottom: 10px;
+}
+
+input {
+    width: 100%;
+}
+
+.section-4 {
+    width: 600px;
+}
+
+.button {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.hidden {
+    display: none;
+}
